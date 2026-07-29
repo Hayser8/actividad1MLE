@@ -1,0 +1,32 @@
+{
+  "status": "SUCCESS",
+  "generated_at_utc": "2026-07-29T00:02:54.258915+00:00",
+  "runner_os": "Windows",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "pandas": "3.0.1",
+  "sklearn": "1.9.0",
+  "rows": 4598,
+  "split": {
+    "train_rows": 3678,
+    "test_rows": 920,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "metrics": {
+    "mae": 9.074478260869565,
+    "rmse": 19.45908732556647,
+    "r2": 0.7322868130207358
+  },
+  "baseline_metrics": {
+    "mae": 19.49086956521739,
+    "rmse": 40.04666218517984,
+    "r2": -0.13385489327456934
+  },
+  "mae_improvement_percent": 53.442414508465504,
+  "artifacts": {
+    "model": "pipeline.joblib",
+    "metrics": "metrics.json",
+    "predictions": "predictions.csv"
+  }
+}
